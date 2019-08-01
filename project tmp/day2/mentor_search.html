@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="mentor.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="mentor.js"></script>
+</head>
+<body>
+
+<div class="container">
+<br>
+<br>
+<br>
+ <h1>Learn <span class="badge badge-pill badge-primary">New</span></h1>
+ <br>
+ <br>
+ <div class="search">
+ <h2>Search for mentors</h2>
+ <br/>
+ <span>
+
+	
+    <input type="text" placeholder="Enter Technology" id="myInput" name="technology" class="field1" required>
+    
+    
+    <input type="text" placeholder="Enter Time" id="myInput" name="time" class="field1" required>
+	<button type="button" class="btn btn-info" onclick="myFunction()">
+      <span class="glyphicon glyphicon-search"></span> Search
+    </button>
+	</span>
+	
+</div>
+<br/>
+<div>
+
+
+<table id="myTable">
+  <tr class="header">
+   <th style="width:40%;">Technologies</th>
+    <th style="width:20%;">Mentor Name</th>
+    <th style="width:20%;">Timing</th>
+	 <th style="width:20%;"></th>
+  </tr>
+  <tr>
+    
+    <td>End to End</td>
+	<td>Ram Chand</td>
+    <td>9 to 6</td>
+	<td><button type="button" class="btn btn-info" onclick="myFunction()">
+      <span class="glyphicon glyphicon-search"></span> View Profile
+    </button></td>
+  </tr>
+  <tr>
+  
+    <td>Cloud</td>
+	 <td>Sri Sai</td>
+    <td>12 to 4</td>
+	<td><button type="button" class="btn btn-info" onclick="myFunction()">
+      <span class="glyphicon glyphicon-search"></span> View Profile
+    </button></td>
+  </tr>
+  <tr>
+   
+    <td>Middleware</td>
+	<td>Chandra</td>
+    <td>9 to 4</td>
+	<td><button type="button" class="btn btn-info" onclick="myFunction()">
+      <span class="glyphicon glyphicon-search"></span> View Profile
+    </button></td>
+  </tr>
+  <tr>
+   
+    <td>UI</td>
+	<td>Hema</td>
+    <td>2 to 3</td>
+	<td><button type="button" class="btn btn-info" onclick="myFunction()">
+      <span class="glyphicon glyphicon-search"></span> View Profile
+    </button></td>
+  </tr>
+</table>
+
+ </div>
+ </body>
+ </html>
